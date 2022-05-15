@@ -1,0 +1,128 @@
+.title {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 600;
+}
+.desc {
+    font-family: PingFangSC-Regular;
+    font-size: 10.5px;
+    color: rgba(34,35,42,0.65);
+    line-height: 16.5px;
+    font-weight: 400;
+}
+.label {
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 600;
+}
+.required {
+    color: #ff4d4f;
+}
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+.upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.uploadText {
+    width: 100%;
+}
+.uploadImg {
+    background-color: #EDEDED;
+    padding: 29.25px;
+    border-radius: 6px;
+}
+.uploadTextTitle {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+    font-weight: 600;
+} 
+.uploadTextDesc {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(34,35,42,0.65);
+    line-height: 22px;
+    font-weight: 400;
+}
+.uploadPreview {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.uploadPreview:hover .removeImage {
+    display: block;
+}
+.removeImage {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #00000080;
+}
+.removeTrash {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tagItem {
+    min-width: 65px;
+    border: 1px solid #DFDFDF;
+    border-radius: 6px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.no {
+    color: rgba(34, 35, 42, 0.65);
+    font-weight: bold;
+}
+.tagItem input {
+    border: none;
+    outline: none;
+}
+
+.tagItem input:focus {
+    outline: none !important;
+    background: none !important; 
+}
+.input {
+    max-width: 75px;
+    padding: 6.5px 0 6.5px 5px;
+    background-color: transparent !important;
+}
+.tagListWrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.closeIcon {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #DFDFDF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+}

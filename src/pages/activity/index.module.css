@@ -1,0 +1,17 @@
+.wrap {
+    /* background-color: #fff; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}
+.title {
+    font-weight: 500;
+    margin: 60px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.twiter {
+    text-align: center;
+    cursor: pointer;
+}

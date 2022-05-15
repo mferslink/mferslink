@@ -1,0 +1,58 @@
+.title {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 600;
+}
+.desc {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(34,35,42,0.65);
+    line-height: 24px;
+    font-weight: 400;
+}
+.priceItem {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #DFDFDF;
+    border-radius: 6px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+    cursor: pointer;
+}
+.priceItemSelected {
+    border: 1px solid #3CB9FF !important;
+}
+.priceBox {
+    display: flex;
+    margin-bottom: 18px;
+}
+.customPrice {
+    display: flex;
+    align-items: center;
+    padding: 11.25px;
+    max-width: 126px;
+    border: 1px solid #DFDFDF;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.customInput {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+.modalFooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text {
+    font-family: PingFangSC-Regular;
+    font-size: 11.25px;
+    color: rgba(34,35,42,0.65);
+    line-height: 21.25px;
+    font-weight: 400;
+}

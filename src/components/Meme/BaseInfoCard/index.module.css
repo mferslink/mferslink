@@ -1,0 +1,83 @@
+.wrap {
+
+}
+.imgBox {
+    position: relative;
+    padding: 15px 186px;
+    background: #595959;
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBoxDetail {
+    border-radius: 6px;
+}
+.download {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+
+.content {
+    padding: 15px;
+    background-color: #fff;
+}
+.tagBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.tagItem {
+    padding: 0 12px;
+    border: 1px solid #DFDFDF;
+    border-radius: 21px;
+}
+.no {
+    color: rgba(0,0,0,0.40);
+}
+.addBy {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(0,0,0,0.40);
+    line-height: 14px;
+    font-weight: 400;
+}
+.userName {
+    color: #2794FF;
+    cursor: pointer;
+}
+.title {
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.operate {
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+.operate div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0 ;
+}
+.line {
+    border-right: 1px solid rgba(0,0,0,0.12);
+}
+
+
+@media screen and (max-width: 640px) {
+    .imgBox {
+        padding: 0;
+    }
+}

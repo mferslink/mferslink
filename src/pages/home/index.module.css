@@ -1,0 +1,87 @@
+.homeBox {
+    padding: 20px;
+}
+.wrap {
+    margin-bottom: 20px;
+}
+.wrapItem {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.moreBtn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.headBg {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.sanity.io/images/oru63jca/production/5f815166a089b7befdfa283c007c75a8f67625af-1440x400.png'); */
+}
+.slogan {
+    width: 75%;
+    white-space: pre-line;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 3%;
+}
+.masonry {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+
+.column {
+    /* width: 24%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.columnPost {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.headPic {
+    animation: headBgAnimate 20s linear infinite;
+}
+
+@keyframes headBgAnimate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .homeBox {
+        padding: 10px;
+    }
+    .box{
+       padding: 10px;
+    }
+    .slogan {
+        margin-left: 0;
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+        margin-right: 0;
+    }
+    .columnPost {
+        width: 100%;
+        margin-right: 0;
+    }
+    .masonry {
+        flex-wrap: wrap;
+    }
+}

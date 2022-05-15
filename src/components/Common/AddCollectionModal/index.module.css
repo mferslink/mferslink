@@ -1,0 +1,80 @@
+.title {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 600;
+}
+.desc {
+    font-family: PingFangSC-Regular;
+    font-size: 10.5px;
+    color: rgba(34,35,42,0.65);
+    line-height: 16.5px;
+    font-weight: 400;
+}
+.label {
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 600;
+}
+.required {
+    color: #ff4d4f;
+}
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+.upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.uploadText {
+    width: 100%;
+}
+.uploadImg {
+    background-color: #EDEDED;
+    padding: 29.25px;
+    border-radius: 6px;
+}
+.uploadTextTitle {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+    font-weight: 600;
+} 
+.uploadTextDesc {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(34,35,42,0.65);
+    line-height: 22px;
+    font-weight: 400;
+}
+.uploadPreview {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+}
+.uploadPreview:hover .removeImage {
+    display: block;
+}
+.removeImage {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #00000080;
+}
+.removeTrash {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

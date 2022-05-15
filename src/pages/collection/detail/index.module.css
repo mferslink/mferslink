@@ -1,0 +1,14 @@
+.wrap {
+    padding-top: 18px;
+    padding-left: 172px;
+    padding-right: 174px;
+    max-width: 740px;
+    box-sizing: content-box;
+    padding-bottom: 18px;
+}
+@media screen and (max-width: 640px) {
+    .wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

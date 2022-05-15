@@ -1,0 +1,103 @@
+.mf-gap-top-large {
+    margin-top: 30px;
+}
+.mf-gap-bottom-large {
+    margin-bottom: 30px;
+}
+.mf-gap-top {
+    margin-top: 18px;
+}
+.mf-gap-bottom {
+    margin-bottom: 18px;
+}
+.mf-gap-top-small {
+    margin-top: 12px;
+}
+.mf-gap-bottom-small {
+    margin-bottom: 12px;
+}
+
+.mf-gap-bottom-10 {
+    margin-bottom: 10px;
+}
+.mf-gap-top-10 {
+    margin-top: 10px;
+}
+
+.mf-gap-left-10 {
+    margin-left: 10px;
+}
+.mf-gap-right-10 {
+    margin-right: 10px;
+}
+
+.mf-gap-top-mini {
+    margin-top: 6px;
+}
+.mf-gap-bottom-mini {
+    margin-bottom: 6px;
+}
+
+.mf-gap-left {
+    margin-left: 18px;
+}
+
+.mf-gap-right {
+    margin-right: 18px;
+}
+.mf-gap-left-middle {
+    margin-left: 10px;
+}
+.mf-gap-left-14 {
+    margin-left: 14px;
+}
+.mf-gap-rigth-middle {
+    margin-left: 10px;
+}
+.mf-gap-left-small {
+    margin-left: 6px;
+}
+.mf-gap-left-mini {
+    margin-left: 3px;
+}
+
+.mf-line-clamp1 {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mf-line-clamp2 {
+    display: -webkit-box;
+    overflow: hidden;
+    margin-bottom: .05rem;
+    white-space: normal;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.mf-line-clamp4 {
+    display: -webkit-box;
+    overflow: hidden;
+    margin-bottom: .05rem;
+    white-space: normal;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.mf-tac {
+    text-align: center;
+}
+.mf-tal {
+    text-align: left;
+}
+.mf-tar {
+    text-align: right;
+}
+.mf-flex-ac {
+    display: flex;
+    align-items: center;
+}

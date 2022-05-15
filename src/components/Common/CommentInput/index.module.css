@@ -1,0 +1,92 @@
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.avator {
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.content {
+    width: 100%;
+}
+.input {
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: #000000d9;
+    font-size: 14px;
+    line-height: 1.5715;
+    background-image: none;
+    transition: all .3s;
+    border: none;
+    outline: none;
+}
+
+.uploadPreview {
+    position: relative;
+    width: 138px;
+    height: 138px;
+}
+.uploadPreview:hover .removeImage {
+    display: block;
+}
+.removeImage {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #00000080;
+}
+.removeTrash {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.op {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.textNum {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(0,0,0,0.25);
+    font-weight: 400;
+}
+.media {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.emoj {
+    position: relative;
+    cursor: pointer;
+}
+.emojPannel {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: -110px;
+    z-index: 999;
+}
+.emoj:hover .emojPannel {
+    display: block;
+}

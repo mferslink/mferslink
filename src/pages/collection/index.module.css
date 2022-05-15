@@ -1,0 +1,9 @@
+.box {
+    padding: 24px 43px;
+}
+
+@media screen and (max-width: 640px) {
+    .box{
+       padding: 10px;
+    }
+}

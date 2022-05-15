@@ -1,0 +1,40 @@
+.intro {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(18, 18, 18, 0.6));
+    cursor: default;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    pointer-events: none;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.wrap {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 250px;
+}
+.imgCover {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.imgCoverBox {
+    position: relative;
+    min-height: 279px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    .wrap {
+        max-width: none;
+    }
+}

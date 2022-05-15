@@ -1,0 +1,13 @@
+.wrap {
+    padding: 0 8px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+.wrap span {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}

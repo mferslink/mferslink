@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+
+.ant-input-affix-wrapper {
+    border-radius: 6px !important;
+}
+.ant-input-show-count-suffix {
+    font-size: 14px !important;
+}
+.ant-modal-content {
+    border-radius: 6px !important;
+}

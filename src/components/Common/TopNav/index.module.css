@@ -1,0 +1,17 @@
+.wrap {
+    /* font-family: HelveticaNeue-Bold; */
+    font-size: 26px;
+    color: #FFFFFF;
+    line-height: 34px;
+    /* font-weight: 700; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.page {
+    font-family: HelveticaNeue-Bold;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-weight: 700;
+}

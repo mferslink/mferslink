@@ -1,0 +1,25 @@
+.wrap {
+    padding: 30px 220px;
+    max-width: 740px;
+    box-sizing: content-box;
+}
+.wrap h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.pannelHeader {
+    font-size: 18px;
+    font-weight: 700;
+}
+.pannelContent {
+    font-size: 16px;
+    white-space: pre-line;
+}
+@media screen and (max-width: 640px) {
+    .wrap {
+        padding: 10px 10px 40px 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.modalTitle {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.modalDesc {
+    font-family: PingFangSC-Heavy;
+    font-size: 10px;
+    color: rgba(34,35,42,0.65);
+    line-height: 16x;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.modalFooter {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.walletItem {
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    padding: 14px 16px;
+    line-height: 1;
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.wallectSelected {
+    background: #3CB9FF;
+}
+.walletItem span {
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(0,0,0,0.85);
+    font-weight: 600;
+}

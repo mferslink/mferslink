@@ -1,0 +1,36 @@
+.wrap {
+    max-width: 110px;
+    cursor: pointer;
+    position: relative;
+}
+.box {
+    min-width: 78px;
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 3px 14.25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectedShow {
+    color: #fff;
+}
+
+.item {
+    padding: 3.25px 15px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+.selected {
+    background: #3CB9FF;
+    border-radius: 16px;
+    color: #fff;
+}

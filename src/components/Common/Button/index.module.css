@@ -1,0 +1,13 @@
+.wrap {
+    border-radius: 28px;
+    padding: 6px 32px;
+    display: inline-block;
+    cursor: pointer;
+}
+.wrap span {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFFFFF;
+    font-weight: 500;
+}

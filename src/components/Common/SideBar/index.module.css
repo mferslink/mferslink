@@ -1,0 +1,211 @@
+.wrap {
+    padding: 16px 0 10px 20px;
+    position: relative;
+    height: 100%;
+}
+.main {
+    padding: 0 19px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.sidebarItem {
+    cursor: pointer;
+    /* margin-bottom: 0px; */
+    width: 208px;
+}
+.itemContent {
+    color: #8c8c8c;
+    display: flex;
+    align-items: center;
+    padding: 8px 13px;
+    font-family: HelveticaNeue-Medium;
+    font-size: 15px;
+    color: rgba(0,0,0,0.25);
+    font-weight: 500;
+}
+.itemContentSelected {
+    color: #fff;
+    background: #3CB9FF;
+    border-radius: 24px;
+}
+.itemContentIcon {
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+.itemContentText {
+    margin-left: 17px;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    padding-bottom: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    /* overflow: hidden; */
+}
+.footer {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    /* max-width: 342px; */
+    overflow: hidden;
+    /* padding: 0 19px 12px 19px; */
+}
+.avator {
+    border-radius: 50%;
+}
+.avatorBox {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+.info {
+   margin-left: 12px;
+}
+.userName {
+    font-family: HelveticaNeue-Medium;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+.ethName {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    color: rgba(0,0,0,0.25);
+    font-weight: 400;
+}
+
+.modalTitle {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 600;
+}
+.modalDesc {
+    font-family: PingFangSC-Heavy;
+    font-size: 10px;
+    color: rgba(34,35,42,0.65);
+    line-height: 16px;
+    font-weight: 400;
+}
+.modalFooter {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.walletItem {
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    padding: 14px 16px;
+    line-height: 1;
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.wallectSelected {
+    background: #3CB9FF;
+}
+.walletItem span {
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(0,0,0,0.85);
+    font-weight: 600;
+}
+.login {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.login:hover .loginOp {
+    display: block;
+}
+.loginOp {
+    position: absolute;
+    bottom: 50px;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.20);
+    border-radius: 8px;
+}
+.loginOp span {
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.unLogin {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.unLoginText {
+    font-family: HelveticaNeue-Medium;
+    font-size: 15px;
+    color: rgba(0,0,0,0.40);
+    font-weight: 500;
+}
+.editName {
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    padding: 3px 20px;
+    position: relative;
+}
+.editOp {
+    position: absolute;
+    background: rgba(0,0,0,0.40);
+}
+.logout {
+    font-family: PingFangSC-Semibold;
+    font-size: 12px;
+    color: rgba(0,0,0,0.85);
+    line-height: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.operate {
+    cursor: pointer;
+}
+.operate div {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.platform {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.intro {
+    margin: 10px 0;
+    color: rgba(0,0,0,0.25);
+}
+@media screen and (max-width: 640px) {
+    .main {
+        padding: 0;
+    }
+    .wrap {
+        padding: 16px 0 10px 0;
+    }
+    .personal {
+        margin-top: 50px;
+    }
+    /* .info {
+        max-width: 50%;
+    } */
+}

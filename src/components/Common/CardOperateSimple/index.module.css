@@ -1,0 +1,19 @@
+.operate {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    border-radius: 0 0 6px 6px;
+    background-color: #fff;
+    cursor: pointer;
+    color: rgba(34,35,42,0.65);
+}
+.operate div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0 ;
+}
+.line {
+    border-right: 1px solid rgba(0,0,0,0.12);
+}

@@ -1,0 +1,40 @@
+.wrap {
+    background-color: #fff;
+    border-radius: 6px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.title {
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: rgba(34,35,42,0.85);
+    line-height: 28px;
+    font-weight: 500;
+}
+.desc {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(34,35,42,0.65);
+    line-height: 18px;
+    font-weight: 400;
+}
+.addBy {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(0,0,0,0.40);
+    font-weight: 400;
+}
+.uploaderName {
+    color: #2794FF;
+}
+.read {
+    font-size: 18px;
+    color: #3CB9FF;
+    align-self: flex-start;
+    margin-top: 2px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>projects-2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.25">
+        <g id="画板" transform="translate(-158.000000, -255.000000)">
+            <g id="projects-2" transform="translate(158.000000, 255.000000)">
+                <rect id="矩形" x="0" y="0" width="32" height="32"></rect>
+                <rect id="矩形" stroke="#000000" stroke-width="2.66666667" x="2.66666667" y="4" width="26.6666667" height="24" rx="2.66666667"></rect>
+                <circle id="椭圆形" fill="#000000" cx="8" cy="10.6666667" r="2"></circle>
+                <circle id="椭圆形" fill="#000000" cx="8" cy="16" r="2"></circle>
+                <rect id="矩形" fill="#000000" transform="translate(18.666667, 10.666667) rotate(-270.000000) translate(-18.666667, -10.666667) " x="17.3333333" y="3.33333333" width="2.66666667" height="14.6666667"></rect>
+                <rect id="矩形" fill="#000000" transform="translate(18.666667, 16.000000) rotate(-270.000000) translate(-18.666667, -16.000000) " x="17.3333333" y="8.66666667" width="2.66666667" height="14.6666667"></rect>
+                <circle id="椭圆形" fill="#000000" cx="8" cy="21.3333333" r="2"></circle>
+                <rect id="矩形" fill="#000000" transform="translate(18.666667, 21.333333) rotate(-270.000000) translate(-18.666667, -21.333333) " x="17.3333333" y="14" width="2.66666667" height="14.6666667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

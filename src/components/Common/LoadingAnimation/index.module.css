@@ -1,0 +1,13 @@
+.wrap svg {
+    animation: loadingCircle 1s infinite linear;
+}
+@-webkit-keyframes loadingCircle {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loadingCircle {
+    to {
+        transform: rotate(360deg);
+    }
+}

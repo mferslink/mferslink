@@ -1,0 +1,33 @@
+.mfer-container {
+  min-height: 100vh;
+  /* overflow-y: scroll; */
+}
+.bg-black {
+  background-color: #898989;
+}
+.bg-white {
+  background-color: #fff;
+}
+
+.mfer-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  background-color: #fff;
+  height: 100vh;
+  overflow: scroll;
+}
+.mfer-content {
+  width: 75%;
+  margin-left: 25%;
+  /* height: 110vh; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.mfer-bg {
+  /* background-image: url(https://cdn.sanity.io/images/oru63jca/production/ef964782c97c616101ea98847a9488e5208b71f1-1192x1192.png);
+  background-repeat: repeat;
+  background-size: contain; */
+}

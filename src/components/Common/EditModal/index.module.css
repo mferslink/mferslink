@@ -1,0 +1,39 @@
+.avator {
+    border-radius: 50%;
+}
+.editName {
+    width: 100%;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.editAvator {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.editOp {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.40);
+    color: #fff;
+    width: 90px;
+    height: 45px;
+    text-align: center;
+    z-index: 9;
+    border-radius: 0 0 90px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

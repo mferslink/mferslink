@@ -1,0 +1,32 @@
+.wrap {
+    /* max-width: 425px; */
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.content {
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.baseInfo {
+    display: flex;
+    align-items: center;
+}
+.userName {
+    font-family: HelveticaNeue-Bold;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+.time {
+    font-family: HelveticaNeue;
+    font-size: 10.5px;
+    color: rgba(34,35,42,0.65);
+    font-weight: 400;
+}
+.avator {
+    border-radius: 50%;
+}
+.imageGalleryItem {
+    border-radius: 8px;
+}

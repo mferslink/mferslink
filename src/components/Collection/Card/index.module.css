@@ -1,0 +1,46 @@
+.wrap {
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 400px;
+}
+.top {
+    border-radius: 8px;
+    padding: 15px 15px 0 15px;
+}
+.base {
+    display: flex;
+    align-items: center;
+}
+.projName {
+    font-family: HelveticaNeue-Bold;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+}
+.projInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+.siteInfo {
+    margin-top: 9px;
+}
+.imgCover {
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.imgCoverBox {
+    border-radius: 8px;
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+}
+.platform {
+    display: flex;
+    margin-top: 15px;
+}
+.cardOperate {
+    border-top: 1px solid rgba(0,0,0,0.12);
+}

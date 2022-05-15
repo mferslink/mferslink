@@ -1,0 +1,67 @@
+.wrap {
+    display: flex;
+    /* align-items: center; */
+}
+.avator {
+    border-radius: 50%;
+    flex: 1;
+    flex-shrink: 0;
+}
+.commentImage {
+    border-radius: 6px;
+}
+.content {
+    flex: 1;
+}
+.contentPannel {
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    width: 95%;
+    cursor: pointer;
+}
+.userName {
+    font-family: HelveticaNeue-Medium;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: 500;
+}
+.time {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(0,0,0,0.25);
+    line-height: 20px;
+    font-weight: 400;
+}
+.detail {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 5px 0;
+    /* margin-bottom: 10px; */
+}
+.detailImage {
+    margin-bottom: 8px;
+}
+.operate {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.operate div {
+    display: flex;
+    align-items: center;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(34,35,42,0.65);
+    font-weight: 400;
+    cursor: pointer;
+}
+.commentImgText {
+    color: #3CB9FF;
+    margin-left: 3px;
+}

@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrap div {
+    font-family: HelveticaNeue;
+    font-size: 10.5px;
+    color: rgba(34,35,42,0.65);
+    font-weight: 400;
+    cursor: pointer;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0;
+}
+
+.text {
+    margin-left: 4px;
+}
+.line {
+    border-right: 1px solid rgba(0,0,0,0.12);
+}

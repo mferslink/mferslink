@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font: 14px/22px Arial, Helvetica, sans-serif;
+  }
+  body,
+  div,
+  dl,
+  dt,
+  dd,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  form,
+  fieldset,
+  input,
+  textarea,
+  p,
+  blockquote,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  @media screen and (max-width: 960px) {
+    html {
+        font-size: calc(100 / 960 * 100vw) !important;
+    }
+  }
+  @media screen and (min-width: 970px) {
+    html {
+        font-size: 100px !important;
+    }
+  }
+  
+  p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
